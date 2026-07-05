@@ -1,0 +1,8 @@
+<?php
+session_start();
+
+session_unset();
+session_destroy();
+
+header("Location: /shopping_cart/index.php");
+exit();
